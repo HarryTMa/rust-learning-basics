@@ -3,11 +3,11 @@
 
 
 
-// Mary is buying apples. One apple usually costs 2 Rustbucks, but if you buy
+// Hu Tutu is buying apples. One apple usually costs 2 Rustbucks, but if you buy
 // more than 40 at once, each apple only costs 1! Write a function that calculates
 // the price of an order of apples given the quantity bought. 
-fn calculate_apple_price(price: i32) -> i32{
-    print!("{}",price);
+fn calculate_apple_price(amount: i32) -> i32{
+    print!("{}",amount);
     unimplemented!();
 }
 
