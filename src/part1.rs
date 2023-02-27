@@ -8,7 +8,11 @@
 // the price of an order of apples given the quantity bought. 
 fn calculate_apple_price(amount: i32) -> i32{
     print!("{}",amount);
-    unimplemented!();
+	if amount > 40 {
+		amount
+	} else {
+		amount * 2
+	}
 }
 
 
