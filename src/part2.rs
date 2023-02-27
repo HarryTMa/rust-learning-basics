@@ -16,16 +16,16 @@ fn string<W: Write>(arg: String, mut writer: &mut W) {
 }
 
 fn test_string(writer: &mut impl Write) {
-    ???("blue", writer);
-    ???("red".to_string(), writer);
-    ???(String::from("hi"), writer);
-    ???("rust is fun!".to_owned(), writer);
-    ???("nice weather".into(), writer);
-    ???(format!("Interpolation {}", "Station"), writer);
-    ???(&String::from("abc")[0..1], writer);
-    ???("  hello there ".trim(), writer);
-    ???("Happy Monday!".to_string().replace("Mon", "Tues"), writer);
-    ???("mY sHiFt KeY iS sTiCkY".to_lowercase(), writer);
+    string_slice("blue", writer);
+    string("red".to_string(), writer);
+    string(String::from("hi"), writer);
+    string("rust is fun!".to_owned(), writer);
+    string_slice("nice weather".into(), writer);
+    string(format!("Interpolation {}", "Station"), writer);
+    string_slice(&String::from("abc")[0..1], writer);
+    string_slice("  hello there ".trim(), writer);
+    string("Happy Monday!".to_string().replace("Mon", "Tues"), writer);
+    string("mY sHiFt KeY iS sTiCkY".to_lowercase(), writer);
 }
 
 #[cfg(test)]
