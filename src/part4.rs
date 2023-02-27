@@ -1,7 +1,18 @@
 // Part 4
 // This part includes practice problems for learning Rust on Modules and Macros.
 
+
+
 // Write a macro that passes the test!
+
+
+macro_rules! my_macro {
+	($x:expr) => {
+		format!("Hello {}", $x)
+	}
+}
+
+
 #[cfg(test)]
 mod tests {
     use super::*;

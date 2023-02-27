@@ -1,4 +1,6 @@
 # 实践过程
+## 任务一
+第一节略
 ### part1
 运行`cargo test part1_test`时，由于part2~4还没完成，所以编译就会出错，需要手动把main.rs里面的`mod part2;`等去掉。
 
@@ -9,3 +11,6 @@
 这部分比较简单，唯一的坑点就是指南里面的shell是`cargo test return_twice_of_positive_numbers`，但是其实方法名叫`returns_twice_of_positive_numbers`（恼）。
 
 ### part4
+宏我还是不熟悉，用的时候要看其他项目的源码或者看手册。以及我不知道如何在`macro_rules!`定义的宏里面合并两个字面量，只能简单地用`format!`来做。（不过有一说一，编译时如果开了优化，Rust自己会帮我们合并的。）
+
+## 任务二
