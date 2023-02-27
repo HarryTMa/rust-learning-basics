@@ -2,6 +2,7 @@ mod part1;
 mod part2;
 mod part3;
 mod part4;
+mod exercism;
 
 fn main() {
     println!("This is the basic test for Rust.");
