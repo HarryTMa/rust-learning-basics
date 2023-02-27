@@ -17,3 +17,5 @@
 ### sublist
 `Vec<T>`的`len()`返回一个`usize`，所以做减法的时候要转成`isize`，但访问下标要再转回`usize`，就很烦。另外，KMP我早已忘光光了，所以就直接用朴素的`O(mn)`法了。
 
+### minesweeper
+这个更烦，最主要它还建议不要clone原字符串，那我就只能一个字符一个字符push了。`isize usize`搞了半天。
