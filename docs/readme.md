@@ -19,3 +19,8 @@
 
 ### minesweeper
 这个更烦，最主要它还建议不要clone原字符串，那我就只能一个字符一个字符push了。`isize usize`搞了半天。
+
+### Parallel Letter Frequency
+啊啊，原来这个网站是可以直接做的，我才发现
+这个更烦。单独`thread::spawn`不能在闭包传引用，要用`thread::scope`绕个圈子；
+它的题目描述非常晦涩，但是我最后发现它要的是“letter”，所以要包含任何文字的字母，但不能包含数字或符号。虽然很离谱，但是可以用`c.is_alphabetical()`判断。
