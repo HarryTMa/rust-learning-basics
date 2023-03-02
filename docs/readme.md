@@ -35,3 +35,9 @@
 ### Grade School(https://exercism.org/tracks/rust/exercises)，难度Medium
 这个就是一些迭代器和二叉树容器的应用，不再赘述。
 
+### Luhn(https://exercism.org/tracks/rust/exercises/luhn)，难度Medium
+这个唯一值得多说的是，我的算法可能不是特别好，用了额外的空间，事实上可以不用的。
+
+# 其他感受
+有一个很大很大的坑，就是在任务二里面我一开始忘了在`mod.rs`里面添加`pub mod xxx`，然后编译没有问题，我心说我也没那么厉害吧，然后一放到网站上去，几十个错误。乐。
+然后是我知道怎么让cargo不显示警告。因为我定义了太多「没用」的函数和结构，所以cargo报了一堆警告，所以想在其中找到错误就有了难度。不过我也查不到怎么让它用类似`gcc -Wno-warnings`的命令行参数，遂作罢。
