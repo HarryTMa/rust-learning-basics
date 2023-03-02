@@ -31,3 +31,7 @@
 
 ### Clock(https://exercism.org/tracks/rust/exercises/clock)，难度Medium
 这个更简单了，感觉这个网站上的Medium相当于一般的Easy。我唯一不会的是格式化输出整数，但是查阅了资料就会了。
+
+### Grade School(https://exercism.org/tracks/rust/exercises)，难度Medium
+这个就是一些迭代器和二叉树容器的应用，不再赘述。
+
