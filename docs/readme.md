@@ -29,3 +29,5 @@
 ### Poker(https://exercism.org/tracks/rust/exercises/poker)，难度Hard
 之所以选这个是因为感觉比较好玩，点进去它给的参考资料，发现这种游戏和大怪路子非常相近（果然牌类游戏都是泊来品）。有一个坑是A2345算顺子，还有一个坑是10它的字符串就是"10"，不是"T"。总体不难，虽然我做了两个小时。我又不得不提到Rust的坑点：不同类型的整数甚至不能运算，甚至不能隐式转换。真的太坑了。反思一下，我觉得我代码写得也不好，无所谓了。
 
+### Clock(https://exercism.org/tracks/rust/exercises/clock)，难度Medium
+这个更简单了，感觉这个网站上的Medium相当于一般的Easy。我唯一不会的是格式化输出整数，但是查阅了资料就会了。
